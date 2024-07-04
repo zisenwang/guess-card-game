@@ -57,9 +57,7 @@
     "*.ts": [
       "prettier --write"
     ],
-    "*.html":
-      "prettier --write"
-    ,
+    "*.html": "prettier --write",
     "*.scss": "prettier --write",
     "*.md": [
       "prettier --write"
