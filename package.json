@@ -52,20 +52,17 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "*.ts": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
-    "*.css": [
-      "prettier --write",
-      "git add"
-    ],
+    "*.html":
+      "prettier --write"
+    ,
+    "*.scss": "prettier --write",
     "*.md": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }

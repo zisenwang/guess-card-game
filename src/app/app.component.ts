@@ -10,7 +10,4 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'guess-card-game';
-  private routerOutlet() {
-    const a = [1, 12, 3];
-  }
 }
